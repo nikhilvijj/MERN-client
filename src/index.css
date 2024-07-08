@@ -1,0 +1,76 @@
+
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5eeee;
+  }
+  
+  header {
+    background-color: #282c34;
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 1em;
+  }
+  
+  header nav a, header nav button {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form {
+    margin: 2em;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  form div {
+    margin-bottom: 1em;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 0.5em;
+  }
+  
+  button {
+    background-color: #282c34;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: white;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
